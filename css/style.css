@@ -1,0 +1,26 @@
+.card {
+	width: 50%;
+	margin-left: 25%;
+	margin-bottom: 20px;
+	margin-top: -50px;
+}
+.page-title {
+	text-align: center;
+}
+
+#inn_result {
+	width: 60%;
+	height: 180px;
+	overflow: hidden;
+	margin-left: 19%;
+	padding: 15px;
+	border: transparent;
+}
+
+#example {
+	width: 60%;
+	height: 220px;
+	overflow: hidden;
+	margin-left: 26%;
+	margin-top: 50px;
+}

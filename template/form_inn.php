@@ -7,7 +7,7 @@
 <form class="card">
     <input type="hidden" id="mode" name="fake" value="">
     <div class="input-group">
-      <input type="text" class="form-control" placeholder="Введите ИНН из 12 цифр" name="inn">
+      <input type="text" class="form-control" placeholder="Введите ИНН из 12 цифр (скопируйте из примера)" name="inn">
       <div class="input-group-append">
         <input type="button" class="btn btn-secondary" id="search" value="Найти">
       </div>

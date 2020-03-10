@@ -25,14 +25,9 @@ require_once 'classes/Authenticity.php';
 $authenticity = new Authenticity();
 
 $data = $authenticity->get($_POST['inn']);
-print_r($data);
 
+		echo 'Проверка ИНН = ' . $_POST['inn'] . ' :'."\n";
 
-//		echo '<p>Проверка ИНН=' . $_POST['inn'] . ':</p><pre>';
-
-//	    print_r($authenticity->get($_POST['inn']));
-
-//		echo '</pre>';
-		
+	    print_r($data);	
 
 ?>

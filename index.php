@@ -24,7 +24,8 @@
 		                type: 'POST',
 		                data: { inn: inn, fake: fake },
 		                success: function (data) {
-		                	$("#inn_result").html(data);
+		                	
+                            $("#inn_result").html(data);    
 		                },
 		               	error: function (data) {
 		                	$("#inn_result").html(data);
